@@ -6,7 +6,7 @@ const Contact = ({ closeForm }) => {
         <div className='fixed inset-0 flex items-center justify-center bg-black bg-opacity-50'>
             <div className='popup-form absolute mt-12 text-black'>
                 <form className='w-80 md:w-96 space-y-5 p-5 rounded-xl bg-white'>
-                    <h1 className='text-4xl font-semibold text-center text-teal-300'>Book Now!</h1>
+                    <h1 className='text-4xl font-semibold text-center text-backgroundColor'>Book Now!</h1>
                     <div className='flex flex-col'>
                         <input type="text" name='userFirstName' id='userFirstName' placeholder='First Name' className='py-3 px-2 bg-[#d5f2ec] rounded-lg border-black' />
                     </div>
